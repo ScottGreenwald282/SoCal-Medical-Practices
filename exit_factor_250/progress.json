@@ -1,0 +1,61 @@
+{
+  "research_date": "2026-09-30",
+  "target_qualified": 250,
+  "signals_discovered": 43,
+  "signals_qualified_rows": 7,
+  "signals_qualified_primary_companies": 6,
+  "signals_excluded": 15,
+  "signals_requiring_review": 21,
+  "unique_companies": 41,
+  "verified_owners": 15,
+  "companies_with_company_phone": 17,
+  "signals_by_category_qualified_rows": {
+    "Growth / Complexity": 6,
+    "Financial / Margin / Operational": 1
+  },
+  "signals_by_industry_qualified_primary": {
+    "Heavy highway construction and ready-mix concrete": 1,
+    "General contractor": 1,
+    "Multifamily residential development": 1,
+    "Custom home builder": 1,
+    "Custom and quick move-in home builder": 1,
+    "Custom home builder and mixed-use development": 1
+  },
+  "signals_by_city_qualified_primary": {
+    "Brooklyn": 1,
+    "Des Moines": 1,
+    "Ames": 1,
+    "Ankeny": 2,
+    "Huxley": 1
+  },
+  "source_domains_on_recorded_signals": {
+    "iowadot.gov": 5,
+    "manatts.com": 2,
+    "agcia.org": 2,
+    "businessrecord.com": 38,
+    "haverkampgroup.com": 1,
+    "eldercorp.com": 1,
+    "herbergerconstruction.com": 1,
+    "rasmussengroup.com": 1,
+    "waldinger.com": 1,
+    "i80concrete.com": 1,
+    "ajallen.com": 2,
+    "dsmpartnership.com": 1,
+    "unitedcontractors.net": 1,
+    "excelmechanical.us": 1,
+    "strahanconstruction.com": 1,
+    "vermeer.com": 1,
+    "accu-mold.com": 1,
+    "blackbirchhomes.com": 1,
+    "prairielandhomes.com": 1,
+    "sagehomesiowa.com": 1,
+    "bellahomesiowa.com": 1,
+    "walkyourplans.com": 1,
+    "cementech.com": 1,
+    "stanbroughrealty.com": 1,
+    "groundbreakerhomes.com": 1
+  },
+  "qualified_gap": 244,
+  "note": "Only records with a dated observable event, Central Iowa fit, and a verified individual owner are in qualified_250.csv. One underlying event is one signal. One strongest signal per company is in the primary file. The count is not padded.",
+  "jeremy_sample": "jeremy_vos_sample.csv is a call and mail sheet for Jeremy Vos. A row is not Florida-complete unless a sourced mobile, company phone, and verified owner email are all present. None of the current rows meet that bar. Emails and mobiles are blank when they were not printed on a public page."
+}
