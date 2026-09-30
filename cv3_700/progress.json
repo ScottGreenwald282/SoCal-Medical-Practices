@@ -1,0 +1,29 @@
+{
+  "research_date": "2026-09-29",
+  "target_qualified_people": 700,
+  "companies_discovered": 34,
+  "companies_qualified": 16,
+  "companies_excluded": 13,
+  "companies_review_required": 5,
+  "people_discovered": 26,
+  "people_qualified": 21,
+  "people_excluded": 1,
+  "duplicates_removed": 0,
+  "review_required_records": 4,
+  "qualified_net_new_records": 21,
+  "states_represented": [
+    "AZ",
+    "CA",
+    "FL",
+    "MI",
+    "NC",
+    "NJ",
+    "OR",
+    "PA",
+    "TX"
+  ],
+  "records_still_requiring_dnc_screening": 21,
+  "prior_cv3_workbook": "NOT_SUPPLIED_IN_PROJECT_FOLDER",
+  "dnc_screening": "NOT_PERFORMED_APIS_PROHIBITED",
+  "qualified_gap_remaining": 679
+}
