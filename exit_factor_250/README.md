@@ -25,7 +25,8 @@ One underlying event is one signal. One strongest signal per company is copied i
 | `owners_master.csv` | Named people attached to a company |
 | `source_log.csv` | Primary and secondary URLs |
 | `progress.json` | Counts as of the research date |
-| `scripts/rebuild_outputs.py` | Rebuilds the derived CSVs and `progress.json` from `signals_master.csv` |
+| `jeremy_vos_sample.csv` | Call and mail sheet for Jeremy Vos. Not a Florida-complete contact file |
+| `scripts/rebuild_outputs.py` | Rebuilds the derived CSVs, the Jeremy sample, and `progress.json` from `signals_master.csv` |
 
 ## Current qualified companies
 
@@ -33,6 +34,18 @@ One underlying event is one signal. One strongest signal per company is copied i
 - Beal Derkenne Construction (Des Moines): 515 Walnut tower topped out, August 12, 2026. Andy Beal, co-owner.
 - Haverkamp Group (Ames): groundbreaking of the 387-unit Sloane in north Ankeny, reported September 16, 2026. Brent Haverkamp, founder and CEO.
 - Strahan Construction (Ankeny): $1.5 million purchase of seven Polk City lots, recorded July 16, 2026. Reid Strahan, co-founder. Cindy Strahan is also a co-founder.
+- Sage Homes (Ankeny): owner Chris Pickard said in a December 19, 2025 interview that Sage cut 2025 speculative starts to about half the original plan after June. Company phone (515) 410-9410. Office 301 NE Trilein Dr.
+- Bella Homes of Iowa (Huxley): owner Chris Gardner starting the 120-acre Anthem development, described on February 19, 2025 as about $120 million of investment. Site phone 515-201-3481. Office 506 E 1st.
+
+## Sample for Jeremy Vos
+
+`jeremy_vos_sample.csv` is the call and mail sheet. It keeps qualified companies, plus review companies that have a published phone, a published street address, or a verified owner. Other review rows stay in `review_required.csv`. The opener is the dated signal. Company phone and street address are filled only when a public page printed them.
+
+Jeremy's working channels are in-person networking, targeted mail, and cold calling. The Florida demo standard, a record with a mobile, a company phone, and a verified email, is not met on any row here. Owner emails and mobiles stay blank unless they were printed. Published addresses that are not the owner's, including Kris@bellahomesiowa.com and steve@bellahomesiowa.com, are not stored.
+
+Cash-flow squeeze, time poverty, and a LinkedIn activity spike are not treated as signals. Nothing in this file says an owner wants to sell.
+
+The qualified count is 6. The gap to 250 is still open and is not padded.
 
 ## What was kept out on purpose
 

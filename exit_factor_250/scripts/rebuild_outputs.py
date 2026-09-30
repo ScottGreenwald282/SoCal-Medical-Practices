@@ -70,6 +70,109 @@ def rank(status):
     return {"QUALIFIED": 0, "REVIEW_REQUIRED": 1, "EXCLUDED": 2}.get(status, 9)
 
 
+ADDRESSES = {
+    "Sage Homes": "301 NE Trilein Dr, Ankeny, IA",
+    "Bella Homes of Iowa": "506 E 1st, Huxley, IA 50124",
+    "Walk Your Plans": "1500 S.E. 19th St., Suite 255, Grimes, IA",
+    "Stanbrough Realty Company": "2775 86th Street, Urbandale, IA 50322",
+    "Cemen Tech": "1700 N. 14th St., Indianola, IA 50125",
+    "Baker Group": "1600 Corporate Woods Drive, Ankeny, IA",
+}
+
+SAMPLE_COLUMNS = [
+    "Company",
+    "City",
+    "State",
+    "Industry",
+    "Owner Full Name",
+    "Owner Title",
+    "Ownership Verified",
+    "Company Phone",
+    "Mailing Address",
+    "Signal Headline",
+    "Signal Date",
+    "Signal Type",
+    "Why Exit Factor",
+    "Source URL",
+    "Qualification Status",
+    "Contact Completeness",
+    "Sample Notes",
+]
+
+
+def completeness(row):
+    phone = (row.get("Company Phone") or "").strip()
+    email = (row.get("Owner Email") or "").strip()
+    mobile = (row.get("Owner Phone") or "").strip()
+    parts = []
+    if phone:
+        parts.append("company phone published")
+    else:
+        parts.append("no company phone published")
+    if email:
+        parts.append("owner email published")
+    else:
+        parts.append("owner email not published")
+    if mobile:
+        parts.append("owner phone published but not labeled mobile")
+    else:
+        parts.append("mobile not published")
+    return "Not Florida-complete: " + "; ".join(parts)
+
+
+def write_jeremy_sample(rows):
+    """One call/mail row per company that is qualified or still in review."""
+    best = {}
+    for row in rows:
+        if row["Qualification Status"] not in {"QUALIFIED", "REVIEW_REQUIRED"}:
+            continue
+        key = row["Company"].strip().lower()
+        cur = best.get(key)
+        if cur is None or rank(row["Qualification Status"]) < rank(cur["Qualification Status"]):
+            best[key] = row
+    sample = []
+    for row in best.values():
+        usable = (
+            row["Qualification Status"] == "QUALIFIED"
+            or (row.get("Company Phone") or "").strip()
+            or row["Company"] in ADDRESSES
+            or row.get("Ownership Verified") == "Yes"
+        )
+        if not usable:
+            continue
+        notes = []
+        if row["Company"] in {"Stanbrough Realty Company", "Walk Your Plans", "Next Phase Development LLC", "Diligent Development"}:
+            notes.append("Outside the core HVAC, plumbing, electrical, and field-trade list.")
+        if row["Ownership Verified"] != "Yes":
+            notes.append("Do not treat the named person as the owner until a source says so.")
+        if not (row.get("Company Phone") or "").strip() and row["Company"] not in ADDRESSES:
+            notes.append("No published phone or street address captured.")
+        sample.append(
+            {
+                "Company": row["Company"],
+                "City": row["City"],
+                "State": row["State"],
+                "Industry": row["Industry"],
+                "Owner Full Name": row["Owner Full Name"],
+                "Owner Title": row["Owner Title"],
+                "Ownership Verified": row["Ownership Verified"],
+                "Company Phone": row["Company Phone"],
+                "Mailing Address": ADDRESSES.get(row["Company"], ""),
+                "Signal Headline": row["Signal Headline"],
+                "Signal Date": row["Signal Date"],
+                "Signal Type": row["Signal Type"],
+                "Why Exit Factor": row["Why Exit Factor"],
+                "Source URL": row["Source URL"],
+                "Qualification Status": row["Qualification Status"],
+                "Contact Completeness": completeness(row),
+                "Sample Notes": " ".join(notes),
+            }
+        )
+    sample.sort(key=lambda r: (rank(r["Qualification Status"]), r["Company"].lower()))
+    write_rows(ROOT / "jeremy_vos_sample.csv", sample, SAMPLE_COLUMNS)
+    print("jeremy sample rows", len(sample))
+
+
 def rebuild():
     rows = load_rows()
     for row in rows:
@@ -230,7 +333,13 @@ def rebuild():
             "One strongest signal per company is in the primary file. The count is not padded."
         ),
     }
+    progress["jeremy_sample"] = (
+        "jeremy_vos_sample.csv is a call and mail sheet for Jeremy Vos. "
+        "A row is not Florida-complete unless a sourced mobile, company phone, and verified owner email are all present. "
+        "None of the current rows meet that bar. Emails and mobiles are blank when they were not printed on a public page."
+    )
     (ROOT / "progress.json").write_text(json.dumps(progress, indent=2) + "\n", encoding="utf-8")
+    write_jeremy_sample(rows)
     print(json.dumps({k: progress[k] for k in (
         "signals_discovered",
         "signals_qualified_primary_companies",
