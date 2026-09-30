@@ -1454,24 +1454,55 @@ def write_csv(path: Path, columns: list[str], rows: list[dict]) -> None:
             writer.writerow(row)
 
 
+def load_json_list(path: Path) -> list[dict]:
+    if not path.exists():
+        return []
+    data = json.loads(path.read_text(encoding="utf-8"))
+    return data if isinstance(data, list) else []
+
+
 def main() -> None:
-    errors = validate(PEOPLE)
+    people = (
+        PEOPLE
+        + load_json_list(ROOT / "raw" / "merged_people.json")
+        + load_json_list(ROOT / "raw" / "manual_people.json")
+    )
+    companies = (
+        COMPANIES
+        + load_json_list(ROOT / "raw" / "merged_companies.json")
+        + load_json_list(ROOT / "raw" / "manual_companies.json")
+    )
+    qualified_domains = {
+        norm_domain(row["Company Domain"])
+        for row in people
+        if row["Qualification Status"] == "QUALIFIED"
+    }
+    for company in companies:
+        if (
+            company["Qualification Status"] == "REVIEW_REQUIRED"
+            and norm_domain(company["Company Domain"]) in qualified_domains
+        ):
+            company["Qualification Status"] = "QUALIFIED"
+            note = "Named producing principal verified on a fetched public page."
+            existing = company.get("Review Notes") or ""
+            company["Review Notes"] = f"{existing} {note}".strip()
+    errors = validate(people)
     if errors:
         raise SystemExit("Validation failed:\n" + "\n".join(errors))
 
-    qualified = [r for r in PEOPLE if r["Qualification Status"] == "QUALIFIED"]
-    review = [r for r in PEOPLE if r["Qualification Status"] == "REVIEW_REQUIRED"]
-    excluded_people = [r for r in PEOPLE if r["Qualification Status"] == "EXCLUDED"]
+    qualified = [r for r in people if r["Qualification Status"] == "QUALIFIED"]
+    review = [r for r in people if r["Qualification Status"] == "REVIEW_REQUIRED"]
+    excluded_people = [r for r in people if r["Qualification Status"] == "EXCLUDED"]
 
-    write_csv(ROOT / "people_master.csv", PEOPLE_COLUMNS, PEOPLE)
+    write_csv(ROOT / "people_master.csv", PEOPLE_COLUMNS, people)
     write_csv(ROOT / "qualified_700.csv", PEOPLE_COLUMNS, qualified)
     write_csv(ROOT / "review_required.csv", PEOPLE_COLUMNS, review)
     write_csv(ROOT / "excluded.csv", PEOPLE_COLUMNS, excluded_people)
-    write_csv(ROOT / "companies_master.csv", COMPANY_COLUMNS, COMPANIES)
+    write_csv(ROOT / "companies_master.csv", COMPANY_COLUMNS, companies)
 
     sources = []
     seen_urls = set()
-    for row in PEOPLE:
+    for row in people:
         for url, note in (
             (row["Person Source URL"], f"Person evidence for {row['Full Name']}"),
             (row["Company Source URL 1"], f"Company evidence for {row['Company']}"),
@@ -1488,7 +1519,7 @@ def main() -> None:
                         "Notes": "Public webpage fetched and quoted. No data API.",
                     }
                 )
-    for company in COMPANIES:
+    for company in companies:
         url = company["Company Source URL"]
         if url and url not in seen_urls:
             seen_urls.add(url)
@@ -1504,15 +1535,15 @@ def main() -> None:
     write_csv(ROOT / "source_log.csv", SOURCE_COLUMNS, sources)
 
     states = sorted({r["State"] for r in qualified})
-    companies_qualified = [c for c in COMPANIES if c["Qualification Status"] == "QUALIFIED"]
+    companies_qualified = [c for c in companies if c["Qualification Status"] == "QUALIFIED"]
     progress = {
         "research_date": RESEARCH_DATE,
         "target_qualified_people": 700,
-        "companies_discovered": len(COMPANIES),
+        "companies_discovered": len(companies),
         "companies_qualified": len(companies_qualified),
-        "companies_excluded": sum(1 for c in COMPANIES if c["Qualification Status"] == "EXCLUDED"),
-        "companies_review_required": sum(1 for c in COMPANIES if c["Qualification Status"] == "REVIEW_REQUIRED"),
-        "people_discovered": len(PEOPLE),
+        "companies_excluded": sum(1 for c in companies if c["Qualification Status"] == "EXCLUDED"),
+        "companies_review_required": sum(1 for c in companies if c["Qualification Status"] == "REVIEW_REQUIRED"),
+        "people_discovered": len(people),
         "people_qualified": len(qualified),
         "people_excluded": len(excluded_people),
         "duplicates_removed": 0,

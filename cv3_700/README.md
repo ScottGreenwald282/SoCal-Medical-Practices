@@ -14,6 +14,7 @@ This folder is an evidence file for residential investor-loan brokers who can pl
 | `source_log.csv` | Public pages used |
 | `progress.json` | Running counts |
 | `scripts/build_dataset.py` | Rebuilds the CSVs from the evidence records |
+| `scripts/merge_regional.py` | Checks regional notes against fetched pages and writes only page-backed rows |
 | `raw/pages/` | Text extracted from public pages |
 
 ## Rules used
