@@ -1,0 +1,50 @@
+{
+  "research_date": "2026-09-30",
+  "target_qualified": 250,
+  "signals_discovered": 31,
+  "signals_qualified_rows": 5,
+  "signals_qualified_primary_companies": 4,
+  "signals_excluded": 11,
+  "signals_requiring_review": 15,
+  "unique_companies": 30,
+  "verified_owners": 10,
+  "companies_with_company_phone": 13,
+  "signals_by_category_qualified_rows": {
+    "Growth / Complexity": 5
+  },
+  "signals_by_industry_qualified_primary": {
+    "Heavy highway construction and ready-mix concrete": 1,
+    "General contractor": 1,
+    "Multifamily residential development": 1,
+    "Custom home builder": 1
+  },
+  "signals_by_city_qualified_primary": {
+    "Brooklyn": 1,
+    "Des Moines": 1,
+    "Ames": 1,
+    "Ankeny": 1
+  },
+  "source_domains_on_recorded_signals": {
+    "iowadot.gov": 5,
+    "manatts.com": 2,
+    "agcia.org": 2,
+    "businessrecord.com": 24,
+    "haverkampgroup.com": 1,
+    "eldercorp.com": 1,
+    "herbergerconstruction.com": 1,
+    "rasmussengroup.com": 1,
+    "waldinger.com": 1,
+    "i80concrete.com": 1,
+    "ajallen.com": 2,
+    "dsmpartnership.com": 1,
+    "unitedcontractors.net": 1,
+    "excelmechanical.us": 1,
+    "strahanconstruction.com": 1,
+    "vermeer.com": 1,
+    "accu-mold.com": 1,
+    "blackbirchhomes.com": 1,
+    "prairielandhomes.com": 1
+  },
+  "qualified_gap": 246,
+  "note": "Only records with a dated observable event, Central Iowa fit, and a verified individual owner are in qualified_250.csv. One underlying event is one signal. One strongest signal per company is in the primary file. The count is not padded."
+}
