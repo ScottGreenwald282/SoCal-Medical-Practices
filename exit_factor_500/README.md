@@ -1,8 +1,16 @@
 # Greater Des Moines blue-collar companies for Exit Factor
 
-Research date: 2026-10-01. Elapsed time from the start of this run: 1558.8 seconds (2026-10-01T02:46:19Z to 2026-10-01T03:12:17Z).
+Current target: 100 distinct Greater Des Moines field-trade companies. There is no revenue requirement and no revenue search. A row in `priority_100.csv` is company-qualified only when a public page supports the identity, a real street address, and the trade. Owner name is filled only when a page states ownership. A blank owner is unfinished enrichment, not a guess. Published phones are business numbers. Nothing in the priority file says a company needs to sell.
 
-This folder is a company list, separate from `exit_factor_250/`. A row is revenue-qualified only when a public source states annual revenue or annual sales of at least $1 million, or a clearly attributed third-party estimate does. Employee counts, fleets, permit volume, and Iowa DOT work classes are operating scale, not revenue. A project value is not annual revenue.
+`priority_100.csv` currently holds 37 coordinator-checked companies (24 with a verified owner). Checkpoints: `checkpoints/priority_0010.csv` and `checkpoints/priority_0025.csv`. The file is not padded to 100. Counts and held-out rows are in `priority_progress.json`.
+
+Fifty research workers were launched. Forty-eight returned an isolated result file. Batches 34 and 36 have no result file. The coordinator reread the cited pages before a row was promoted.
+
+The sections below describe the earlier discovery pass. That pass looked for a sourced $1 million revenue figure, found none, and is not the current qualification rule.
+
+Research date: 2026-10-01. Elapsed time for the discovery pass: 1558.8 seconds (2026-10-01T02:46:19Z to 2026-10-01T03:12:17Z).
+
+This folder is a company list, separate from `exit_factor_250/`. In that earlier pass, a row was revenue-qualified only when a public source stated annual revenue or annual sales of at least $1 million, or a clearly attributed third-party estimate did. Employee counts, fleets, permit volume, and Iowa DOT work classes are operating scale, not revenue. A project value is not annual revenue.
 
 ## Counts
 

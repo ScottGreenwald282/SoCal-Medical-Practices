@@ -1,0 +1,38 @@
+{
+  "research_date": "2026-10-01",
+  "target_companies": 100,
+  "revenue_requirement": "none",
+  "tool": "cursor Task / generalPurpose",
+  "workers_requested": 50,
+  "workers_launched": 50,
+  "launch_failures": 0,
+  "result_files_collected": 50,
+  "result_files_missing_batches": [],
+  "active_or_queued": "0 result files missing; live agent state was not polled",
+  "completed_with_result_file": 50,
+  "priority_rows_published": 37,
+  "shortfall_versus_100": 63,
+  "company_qualified": 37,
+  "owner_verified": 24,
+  "owner_unknown": 13,
+  "published_phone": 37,
+  "published_email": 22,
+  "phone_and_email": 22,
+  "checkpoints": {
+    "10": "checkpoints/priority_0010.csv",
+    "25": "checkpoints/priority_0025.csv",
+    "50": "not reached",
+    "100": "not reached"
+  },
+  "held_out": [
+    "Absolute Concrete / Absolute Group: site says 100% employee-owned; no individual owner",
+    "Cessford Construction: published address is Burlington and the email domain is CRH; outside Greater Des Moines",
+    "First Onsite Des Moines: site says it is a subsidiary of FirstService Corporation",
+    "Atlas Roofing Bondurant: roofing-products manufacturer, not a field crew",
+    "Turner Construction: national contractor branch, not promoted",
+    "Rewired and Rewired Iowa: same phone and same claimed owner; duplicate, owner page not reconfirmed",
+    "Creative Nature and 5 Sons: owner pages returned HTTP 403 during coordinator review",
+    "Batches 34 and 36: no result file"
+  ],
+  "note": "All 50 batch result files are in verification/batches. Batches 34 and 36 were recovered from the worker branch and are not in priority_100.csv until a coordinator reread."
+}
