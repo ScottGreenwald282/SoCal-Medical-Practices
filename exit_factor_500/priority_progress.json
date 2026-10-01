@@ -24,8 +24,8 @@
     "workers_requested": 100,
     "workers_launched": 100,
     "launch_failures": 0,
-    "result_files_on_disk": 97,
-    "result_files_not_yet_on_disk": ["t05_c05", "t05_c08", "t06_c06"],
+    "result_files_on_disk": 100,
+    "result_files_not_yet_on_disk": [],
     "live_agent_state": "not polled"
   },
   "firecrawl": {

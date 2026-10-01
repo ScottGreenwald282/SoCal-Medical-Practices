@@ -4,7 +4,7 @@
   "launched": 100,
   "active": "not polled",
   "queued": 0,
-  "completed": "97 result files on disk; live state not polled",
+  "completed": "100 result files on disk; live state not polled",
   "failed": 0,
   "prior_workers": "The earlier 50 batch workers had already finished, so none were still active to reuse.",
   "firecrawl": "v2 search and scrape through a shared cache. A local cap of 4000 credits applies. The key is not stored in the repo.",
@@ -510,11 +510,7 @@
       "status": "active"
     }
   ],
-  "result_files_on_disk": 97,
-  "result_files_not_yet_on_disk": [
-    "t05_c05",
-    "t05_c08",
-    "t06_c06"
-  ],
-  "note": "Launch returned 100 running agents and 0 launch failures. At the owner-gate checkpoint, 97 result files were on disk. Live agent state was not polled. The three missing files were not marked failed."
+  "result_files_on_disk": 100,
+  "result_files_not_yet_on_disk": [],
+  "note": "Launch returned 100 running agents and 0 launch failures. All 100 result files are on disk. Live agent state was not polled after the files appeared."
 }
