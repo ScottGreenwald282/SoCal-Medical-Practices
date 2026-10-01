@@ -1,0 +1,17 @@
+{
+  "researched_date": "2026-10-01",
+  "target_accepted": 50,
+  "revenue_requirement": "none",
+  "baseline_frozen": "baseline_excluded.tsv",
+  "baseline_delivered_owner_rows": 63,
+  "accepted": 0,
+  "review": 0,
+  "excluded": 0,
+  "shortfall_versus_50": 50,
+  "milestone": "baseline frozen; event search starting",
+  "checkpoints": {
+    "10": "not reached",
+    "25": "not reached",
+    "50": "not reached"
+  }
+}
