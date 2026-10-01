@@ -1,0 +1,21 @@
+searched_at,query_or_source,result_url,outcome,credits_note
+2026-10-01,Des Moines contractor new facility OR ribbon cutting 2025 OR 2026,https://www.dsm.city/news_detail_T21_R449.php,rejected government and ESOP hits,"search, 2 credits"
+2026-10-01,Business Record construction expansion OR acquisition,https://www.businessrecord.com/best-of-des-moines-2026-learn-about-this-years-winners/,accepted Kimberley labor and land-development quotes,search plus scrape
+2026-10-01,Ankeny chamber ribbon cuttings,https://ankenyiacoc.wliinc1.com/mobile/eventDetail.aspx?EventID=7504,accepted King Construction 2025-06-06 ribbon,search plus scrape
+2026-10-01,King Construction about page,https://kingconstructioniowa.com/about-us/,Lincoln Sharar and Lance Sharar labeled Co-owner; Ankeny called the most recent expansion,scrape
+2026-10-01,Profit & Grit Mark Paup transcript and Castro episode page,https://profitandgrit.com/podcast_episode/trades-owner-track-mark-paup/,"accepted Golden Rule owner operating-numbers interview, episode date 2026-05-12",scrape
+2026-10-01,Story County PZC minutes CUP25-000012,https://www.storycountyiowa.gov/AgendaCenter/ViewFile/Item/34216?fileID=27718,"accepted CTI Ready Mix new plant, owner Brad Baumler, 2025-10-01",scrape
+2026-10-01,CTI contact page,https://www.cti-ia.com/contact,"office phone (515) 252-1650, Grimes street; no email","scrape, cached"
+2026-10-01,Kimberley about and contact,https://kimdev.com/about/,President + Owner; phone and info@kimdev.com,scrape
+2026-10-01,Flynn Des Moines office announcement,https://flynncompanies.com/flynn-establishes-new-office-des-moines/,"excluded corporate branch, managers only",scrape
+2026-10-01,Ampacity distribution-center ribbon,https://www.ampacity.com/ampacity-hosts-ribbon-cutting-distribution-center-des-moines-iowa/,"excluded distributor, president not owner",scrape
+2026-10-01,Ames Alliance ribbon cuttings,https://amesalliance.com/upcoming-event/ribbon-cutting-cyclone-contracting-and-brackets/,excluded anniversary and membership ribbons,scrape
+2026-10-01,"All Star Concrete about, contact, AGC title",https://allstarconcreteiowa.com/pages/contact,"review: headquarters groundbreaking snippet, Alex Vazquez is President not Owner",scrape plus search
+2026-10-01,Septagon Grimes construction manager,https://www.businessrecord.com/septagon-names-new-construction-manager-at-grimes-office/,"excluded multi-state firm, no owner",scrape
+2026-10-01,Holt history page and chamber ribbon snippet,https://holtplumbingandheating.com/about/history/,review: no current owner title,scrape
+2026-10-01,BIG Roofing contact page,https://www.bigroofingllc.com/contact-us/,"review: ribbon post, no owner or date",scrape
+2026-10-01,Worker wave w01-w10 isolated CSVs,exit_factor_signals_50_new/workers/,"4 candidate rows, all four accepted after source review; seven workers returned headers only",no extra credits in coordinator review
+2026-10-01,ABI 2026 Legends in Manufacturing,https://www.businessrecord.com/abi-names-2026-legends-in-manufacturing-honorees/,award list only; no operating event for a Greater Des Moines field contractor,scrape
+2026-10-01,Holt grand opening page,https://holtplumbingandheating.com/holts-grand-opening-event/,new Des Moines location and Thursday May 1 ribbon; year not printed; no owner title; stays in review,scrape
+2026-10-01,Neumann Brothers On the Move July 24 2026,https://www.businessrecord.com/on-the-move-week-of-july-24/,promotions confirmed; President and CEO is not an owner; stays in review,search plus scrape
+2026-10-01,Beebe Drain and Sewer grand opening and chamber owners,https://members.dsmpartnership.com/events/details/ribbon-cutting-event-for-beebe-drain-and-sewer-08-05-2026-1631558,"accepted: August 5, 2026 grand opening; Candace Beebe and Jarrod Beebe labeled Owner","scrape, cached or 1 credit class"
