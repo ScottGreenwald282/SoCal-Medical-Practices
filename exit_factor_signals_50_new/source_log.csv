@@ -16,3 +16,5 @@ searched_at,query_or_source,result_url,outcome,credits_note
 2026-10-01,BIG Roofing contact page,https://www.bigroofingllc.com/contact-us/,"review: ribbon post, no owner or date",scrape
 2026-10-01,Worker wave w01-w10 isolated CSVs,exit_factor_signals_50_new/workers/,"4 candidate rows, all four accepted after source review; seven workers returned headers only",no extra credits in coordinator review
 2026-10-01,ABI 2026 Legends in Manufacturing,https://www.businessrecord.com/abi-names-2026-legends-in-manufacturing-honorees/,award list only; no operating event for a Greater Des Moines field contractor,scrape
+2026-10-01,Holt grand opening page,https://holtplumbingandheating.com/holts-grand-opening-event/,new Des Moines location and Thursday May 1 ribbon; year not printed; no owner title; stays in review,scrape
+2026-10-01,Neumann Brothers On the Move July 24 2026,https://www.businessrecord.com/on-the-move-week-of-july-24/,promotions confirmed; President and CEO is not an owner; stays in review,search plus scrape

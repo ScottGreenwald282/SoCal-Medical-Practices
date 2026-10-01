@@ -5,10 +5,10 @@
   "baseline_frozen": "baseline_excluded.tsv",
   "baseline_delivered_owner_rows": 63,
   "accepted": 4,
-  "review": 6,
+  "review": 7,
   "excluded": 22,
   "shortfall_versus_50": 46,
-  "milestone": "First independent review completed. 4 accepted, 6 review, 22 excluded. The 10-company checkpoint was not reached.",
+  "milestone": "First review still stands at 4 accepted. Holt's May 1 new-location page and Neumann Brothers' July 24, 2026 promotions were checked and kept out because neither page names a current owner.",
   "representative_rejections": [
     "Employee-owned or no individual owner: Woodruff, Septagon",
     "President or general manager is not an owner: All Star Concrete, Holt, R3, Flynn",

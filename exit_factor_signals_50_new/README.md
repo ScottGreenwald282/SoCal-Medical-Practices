@@ -10,7 +10,7 @@ Events that count: dated expansion, new facility, new branch, or new geography; 
 
 ## Checkpoint after the first review
 
-Accepted companies: 4. Review: 6. Excluded: 22. Shortfall versus 50: 46. The 10, 25, and 50 checkpoints are not reached. Rows were accepted only after the signal page and the ownership page were opened.
+Accepted companies: 4. Review: 7. Excluded: 22. Shortfall versus 50: 46. The 10, 25, and 50 checkpoints are not reached. Rows were accepted only after the signal page and the ownership page were opened.
 
 Accepted, ranked by recency and evidence:
 
