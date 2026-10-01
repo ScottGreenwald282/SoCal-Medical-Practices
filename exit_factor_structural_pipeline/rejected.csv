@@ -1,0 +1,161 @@
+entity_id,legal_name,stage,reasons,detail
+753682,KING CONSTRUCTION AND HOME REPAIR LLC,cohort,formation_year_2023_outside_1985_2005;operating_county_outside_or_unlisted;trade_not_confirmed_from_non_sos_source,city=Ottumwa; county_basis=outside_or_unlisted; formation=2023-06-15; officers_current=0; filings=5; agent_city_not_used=Ottumwa
+693674,"10G HEATING, COOLING, AND PLUMBING, LLC",search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=PLUMBING
+434776,"1 CALL PLUMBING, LLC",search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=PLUMBING
+393737,1ST RESPONSE PLUMBING INC.,search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=PLUMBING
+611493,319 BACKFLOW & PLUMBING LLC,search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=PLUMBING
+136723,"3 J'S PLUMBING & WIRING, INC.",search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=PLUMBING
+554095,4-M PLUMBING AND HEATING INC.,search_result,not_active_legal_llc_on_search_row,status=Active; type=Legal; prefix=PLUMBING
+759642,515 PLUMBING LLC,search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=PLUMBING
+393072,"5 STAR PLUMBING, INC.",search_result,not_active_legal_llc_on_search_row,status=Active; type=Legal; prefix=PLUMBING
+735816,"72 DEGREES HEATING, COOLING, PLUMBING & ELECTRICAL, LLC",search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=PLUMBING
+913,A. & B. PLUMBING & HEATING CONTRACTORS CORP.,search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=PLUMBING
+221819,"A & B PLUMBING, L.C.",search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=PLUMBING
+365280,"A & H PLUMBING, L.LC.",search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=PLUMBING
+192353,"A & M PLUMBING AND HEATING COMPANY, INC.",search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=PLUMBING
+200480,"A & M PLUMBING, INC.",search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=PLUMBING
+537543,A+ PLUMBING & RENOVATIONS LLC,search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=PLUMBING
+699778,"A+ PLUMBING, INC.",search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=PLUMBING
+622439,A+ SERVICES PLUMBING & HEATING LLC,search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=PLUMBING
+66871,"A-1 HEATING & PLUMBING OF HOLSTEIN, INC.",search_result,not_active_legal_llc_on_search_row,status=Active; type=Legal; prefix=PLUMBING
+694761,10G HEATING COOLING PLUMBING LLC,cohort,formation_year_2021_outside_1985_2005;trade_not_confirmed_from_non_sos_source,city=Elkhart; county_basis=unique_city; formation=2021-12-15; officers_current=0; filings=5; agent_city_not_used=Elkhart
+766890,"1ST CHOICE PLUMBING AND HEATING, LLC",cohort,formation_year_2023_outside_1985_2005;operating_county_outside_or_unlisted;trade_not_confirmed_from_non_sos_source,city=Halbur; county_basis=outside_or_unlisted; formation=2023-10-24; officers_current=0; filings=2; agent_city_not_used=Carroll
+647854,"1ST PLUMBING & HEATING, LLC",cohort,formation_year_2020_outside_1985_2005;operating_county_outside_or_unlisted;trade_not_confirmed_from_non_sos_source,city=Algona; county_basis=outside_or_unlisted; formation=2020-11-12; officers_current=0; filings=4; agent_city_not_used=Algona
+817488,3D PLUMBING LLC,cohort,formation_year_2025_outside_1985_2005;trade_not_confirmed_from_non_sos_source,city=Desmoines; county_basis=city_spelling_desmoines; formation=2025-02-13; officers_current=0; filings=2; agent_city_not_used=Johnston
+782958,44 MAG PLUMBING LLC,cohort,formation_year_2024_outside_1985_2005;operating_county_outside_or_unlisted;trade_not_confirmed_from_non_sos_source,city=Council Bluffs; county_basis=outside_or_unlisted; formation=2024-03-27; officers_current=0; filings=2; agent_city_not_used=Council Bluffs
+644431,"4 SEASONS PLUMBING HEATING COOLING, L.L.C.",cohort,formation_year_2020_outside_1985_2005;operating_county_outside_or_unlisted;trade_not_confirmed_from_non_sos_source,city=Alta; county_basis=outside_or_unlisted; formation=2020-10-13; officers_current=0; filings=4; agent_city_not_used=Alta
+796276,A+ PLUMBING SOLUTIONS LLC,cohort,formation_year_2024_outside_1985_2005;operating_county_outside_or_unlisted;trade_not_confirmed_from_non_sos_source,city=Sergeant Bluff; county_basis=outside_or_unlisted; formation=2024-07-22; officers_current=0; filings=2; agent_city_not_used=West Des Moines
+560193,"1ST KING ROOFING AND RESTORATION, LLC",search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=ROOFING
+767991,"CAPITAL GROUP, LLC",search_result,not_active_legal_llc_on_search_row,status=Active; type=Fictitious name; prefix=ROOFING
+785556,"2 BROTHERS ROOFING, L.L.C.",search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=ROOFING
+680470,2 D'S ROOFING ETC LLC,search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=ROOFING
+839474,"3MG SOLUTIONS, LLC",search_result,not_active_legal_llc_on_search_row,status=Active; type=Fictitious name; prefix=ROOFING
+675530,515 FLAT ROOFING LLC,search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=ROOFING
+530776,"515 ROOFING & CONSTRUCTION, LLC",search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=ROOFING
+731486,5 HERMANOS PROFESSIONAL WATERPROOFING LLC,search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=ROOFING
+739509,5 STARS ROOFING LLC,search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=ROOFING
+466084,"ELEAZAR ENTERPRISES, INC.",search_result,not_active_legal_llc_on_search_row,status=Active; type=Fictitious name; prefix=ROOFING
+365245,"A & A ROOFING & GUTTER SERVICE, L.L.C.",search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=ROOFING
+549487,A & B ROOFING AND CONTRACTING INC.,search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=ROOFING
+400275,"A & B ROOFING AND SIDING, INC.",search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=ROOFING
+705128,"A & H ROOFING IOWA, LLC",search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=ROOFING
+363707,"M&M ROOFING, LLC",search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Fictitious name; prefix=ROOFING
+314830,"A&M ROOFING, LLC",search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=ROOFING
+799840,3C ROOFING & CONSTRUCTION LLC,cohort,formation_year_2024_outside_1985_2005;operating_county_outside_or_unlisted;trade_not_confirmed_from_non_sos_source,city=Schleswig; county_basis=outside_or_unlisted; formation=2024-08-27; officers_current=0; filings=2; agent_city_not_used=Schleswig
+804400,3E ROOFING LLC,cohort,formation_year_2024_outside_1985_2005;operating_county_outside_or_unlisted;trade_not_confirmed_from_non_sos_source,city=Sioux City; county_basis=outside_or_unlisted; formation=2024-10-10; officers_current=0; filings=2; agent_city_not_used=Sioux City
+747177,4G ROOFING LLC,cohort,formation_year_2023_outside_1985_2005;trade_not_confirmed_from_non_sos_source,city=Des Moines; county_basis=unique_city; formation=2023-04-17; officers_current=0; filings=4; agent_city_not_used=West Des Moines
+786246,605 ROOFING AND CONTRACTING LLC,cohort,formation_date_unknown;operating_county_outside_or_unlisted;trade_not_confirmed_from_non_sos_source,city=Waterloo; county_basis=outside_or_unlisted; formation=unknown; officers_current=0; filings=3; agent_city_not_used=Johnston
+861921,A&A ROOFING SOLUTIONS LLC,cohort,formation_year_2026_outside_1985_2005;trade_not_confirmed_from_non_sos_source,city=Des Moines; county_basis=unique_city; formation=2026-03-09; officers_current=0; filings=1; agent_city_not_used=Des Moines
+689272,"A&B ROOFING & CONTRACTING, LLC",cohort,formation_year_2021_outside_1985_2005;operating_county_outside_or_unlisted;trade_not_confirmed_from_non_sos_source,city=Burlington; county_basis=outside_or_unlisted; formation=2021-10-25; officers_current=0; filings=3; agent_city_not_used=West Burlington
+821652,A&J ROOFING LLC,cohort,formation_year_2025_outside_1985_2005;operating_county_outside_or_unlisted;trade_not_confirmed_from_non_sos_source,city=Sioux City; county_basis=outside_or_unlisted; formation=2025-03-19; officers_current=0; filings=1; agent_city_not_used=Sioux City
+815373,A&N ROOFING & EXTERIORS LLC,cohort,formation_year_2025_outside_1985_2005;operating_county_outside_or_unlisted;trade_not_confirmed_from_non_sos_source,city=Wilton; county_basis=outside_or_unlisted; formation=2025-01-24; officers_current=0; filings=1; agent_city_not_used=West Des Moines
+434710,"1ST CALL CONCRETE, LLC",search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=CONCRETE
+781688,2 BROTHER'S CONCRETE LLC,search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=CONCRETE
+486313,"2ND CHANCE CONCRETE, LLC",search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=CONCRETE
+489881,360 CONCRETE SERVICES LLC,search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=CONCRETE
+637425,"3P CONCRETE, INC",search_result,not_active_legal_llc_on_search_row,status=Active; type=Legal; prefix=CONCRETE
+552304,3 SON'S CONCRETE LLC,search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=CONCRETE
+724401,"3SC, INC.",search_result,not_active_legal_llc_on_search_row,status=Active; type=Fictitious name; prefix=CONCRETE
+760082,"515 CONCRETE CREATIONS, LLC",search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=CONCRETE
+542055,51 CONCRETE CO L.L.C.,search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=CONCRETE
+346379,"5 STAR CONCRETE, L.L.C.",search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=CONCRETE
+712074,A&D CONCRETE CONSTRUCTION LLC,search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=CONCRETE
+140472,A & H CONCRETE CORPORATION,search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=CONCRETE
+263042,"A & L CONCRETE, INC.",search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=CONCRETE
+556605,A&S CONCRETE & CONSTRUCTION LLC,search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=CONCRETE
+643156,"A&T CONCRETE AND MASONRY, LLC",search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=CONCRETE
+268567,"A & W CONCRETE PIPE REPAIRS, INC.",search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=CONCRETE
+617812,"A+ CONCRETE & CONSTRUCTION, L.L.C.",search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=CONCRETE
+649809,515 CONCRETE FLOOR POLISHING LLC,cohort,formation_year_2020_outside_1985_2005;trade_not_confirmed_from_non_sos_source,city=Norwalk; county_basis=unique_city; formation=2020-11-25; officers_current=0; filings=5; agent_city_not_used=Council Bluffs
+416514,"515 DECORATIVE CONCRETE SUPPLY, L.L.C.",cohort,formation_year_2011_outside_1985_2005;trade_not_confirmed_from_non_sos_source,city=Des Moines; county_basis=unique_city; formation=2011-05-05; officers_current=0; filings=8; agent_city_not_used=Colfax
+673647,"A & A CONCRETE, LLC",cohort,formation_year_2021_outside_1985_2005;operating_county_outside_or_unlisted;trade_not_confirmed_from_non_sos_source,city=Marshalltown; county_basis=outside_or_unlisted; formation=2021-06-15; officers_current=0; filings=4; agent_city_not_used=Marshalltown
+569689,A & H CONCRETE POLISHING L.L.C.,cohort,formation_year_2018_outside_1985_2005;operating_county_outside_or_unlisted;trade_not_confirmed_from_non_sos_source,city=Fort Dodge; county_basis=outside_or_unlisted; formation=2018-04-06; officers_current=0; filings=6; agent_city_not_used=Fort Dodge
+777083,"A&J CONCRETE, LLC",cohort,formation_year_2024_outside_1985_2005;operating_county_outside_or_unlisted;trade_not_confirmed_from_non_sos_source,city=Hampton; county_basis=outside_or_unlisted; formation=2024-01-31; officers_current=0; filings=2; agent_city_not_used=Hampton
+854774,A & J CONCRETE SOLUTION LLC,cohort,formation_year_2026_outside_1985_2005;operating_county_outside_or_unlisted;trade_not_confirmed_from_non_sos_source,city=Pella; county_basis=outside_or_unlisted; formation=2026-01-12; officers_current=0; filings=1; agent_city_not_used=Johnston
+861300,A&M CONCRETE LLC,cohort,formation_year_2026_outside_1985_2005;operating_county_outside_or_unlisted;trade_not_confirmed_from_non_sos_source,city=Sloan; county_basis=outside_or_unlisted; formation=2026-03-04; officers_current=0; filings=1; agent_city_not_used=Johnston
+741013,A & R CONCRETE SEALING LLC,cohort,formation_year_2023_outside_1985_2005;operating_county_split_city_unresolved;trade_not_confirmed_from_non_sos_source,city=Clive; county_basis=split_city_unresolved; formation=2023-02-24; officers_current=0; filings=2; agent_city_not_used=Clive
+673616,"2M & E EXCAVATION, LIMITED LIABILITY COMPANY",search_result,not_active_legal_llc_on_search_row,status=Active; type=Legal; prefix=EXCAVAT
+550864,"A & A EXCAVATING, L.L.C.",search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=EXCAVAT
+502838,"A & B EXCAVATION COMPANY, INC.",search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=EXCAVAT
+539641,"A&J EXCAVATING, LLC",search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=EXCAVAT
+394722,A & R EXCAVATING INC,search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=EXCAVAT
+392630,A1 EXCAVATING & DRAINAGE INC.,search_result,not_active_legal_llc_on_search_row,status=Active; type=Legal; prefix=EXCAVAT
+326943,"NISS EXCAVATION, INC.",search_result,not_active_legal_llc_on_search_row,status=Active; type=Legal; prefix=EXCAVAT
+139685,"AALBERS EXCAVATING/TRUCKING, INC.",search_result,not_active_legal_llc_on_search_row,status=Active; type=Legal; prefix=EXCAVAT
+395315,"ABEL DRAINAGE & EXCAVATING, INC.",search_result,not_active_legal_llc_on_search_row,status=Active; type=Legal; prefix=EXCAVAT
+471025,"AB EXCAVATION, INC.",search_result,not_active_legal_llc_on_search_row,status=Active; type=Legal; prefix=EXCAVAT
+181883,"ABODE CONSTRUCTION, INC.",search_result,not_active_legal_llc_on_search_row,status=Active; type=Fictitious name; prefix=EXCAVAT
+304047,"ACE EXCAVATION, L.L.C.",search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=EXCAVAT
+828902,"10 GRAND EXCAVATING, LLC",cohort,formation_year_2025_outside_1985_2005;operating_county_outside_or_unlisted;trade_not_confirmed_from_non_sos_source,city=Farley; county_basis=outside_or_unlisted; formation=2025-05-21; officers_current=0; filings=1; agent_city_not_used=Farley
+505073,"1776 EXCAVATING, L.L.C.",cohort,formation_year_2015_outside_1985_2005;operating_county_outside_or_unlisted;trade_not_confirmed_from_non_sos_source,city=Lewis; county_basis=outside_or_unlisted; formation=2015-07-24; officers_current=0; filings=10; agent_city_not_used=Lewis
+370887,"DANIEL K. YODER EXCAVATING, LLC",cohort,formation_year_2008_outside_1985_2005;operating_county_outside_or_unlisted;trade_not_confirmed_from_non_sos_source,city=Wellman; county_basis=outside_or_unlisted; formation=2008-11-03; officers_current=0; filings=11; agent_city_not_used=Wellman
+727000,"3B EXCAVATING, LLC",cohort,formation_year_2022_outside_1985_2005;operating_county_outside_or_unlisted;trade_not_confirmed_from_non_sos_source,city=Maxwell; county_basis=outside_or_unlisted; formation=2022-10-07; officers_current=0; filings=3; agent_city_not_used=Altoona
+544502,"3D EXCAVATING, LLC",cohort,formation_year_2017_outside_1985_2005;trade_not_confirmed_from_non_sos_source,city=Des Moines; county_basis=unique_city; formation=2017-04-12; officers_current=0; filings=5; agent_city_not_used=Urbandale
+798340,"4M EXCAVATION & LAND IMPROVEMENT, LLC",cohort,formation_year_2024_outside_1985_2005;operating_county_outside_or_unlisted;trade_not_confirmed_from_non_sos_source,city=Royal; county_basis=outside_or_unlisted; formation=2024-08-12; officers_current=0; filings=2; agent_city_not_used=Royal
+726538,"641 EXCAVATING, LLC",cohort,formation_year_2022_outside_1985_2005;operating_county_outside_or_unlisted;trade_not_confirmed_from_non_sos_source,city=Pella; county_basis=outside_or_unlisted; formation=2022-10-04; officers_current=0; filings=3; agent_city_not_used=Pella
+831175,"6G EXCAVATION, LLC",cohort,formation_year_2025_outside_1985_2005;operating_county_outside_or_unlisted;trade_not_confirmed_from_non_sos_source,city=Russell; county_basis=outside_or_unlisted; formation=2025-06-11; officers_current=0; filings=1; agent_city_not_used=Russell
+311938,"A & S EXCAVATING, LLC",cohort,operating_county_outside_or_unlisted;trade_not_confirmed_from_non_sos_source,city=De Witt; county_basis=outside_or_unlisted; formation=2005-05-24; officers_current=0; filings=21; agent_city_not_used=Dewitt
+871579,A&S HIGH GRADE EXCAVATING LLC,cohort,formation_year_2026_outside_1985_2005;operating_county_outside_or_unlisted;trade_not_confirmed_from_non_sos_source,city=Knoxville; county_basis=outside_or_unlisted; formation=2026-05-16; officers_current=0; filings=1; agent_city_not_used=Knoxville
+746806,"A-1 EXCAVATING, LLC",cohort,formation_date_unknown;operating_county_outside_or_unlisted;trade_not_confirmed_from_non_sos_source,city=Coral Gables; county_basis=outside_or_unlisted; formation=unknown; officers_current=0; filings=2; agent_city_not_used=Des Moines
+381911,"AE EXCAVATING, LLC",cohort,formation_year_2009_outside_1985_2005;trade_not_confirmed_from_non_sos_source,city=Runnells; county_basis=unique_city; formation=2009-06-08; officers_current=0; filings=9; agent_city_not_used=Des Moines
+693674,"10G HEATING, COOLING, AND PLUMBING, LLC",search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=HEATING
+434776,"1 CALL PLUMBING, LLC",search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Fictitious name; prefix=HEATING
+329662,"24/7 HEATING & COOLING, INC.",search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=HEATING
+554095,4-M PLUMBING AND HEATING INC.,search_result,not_active_legal_llc_on_search_row,status=Active; type=Fictitious name; prefix=HEATING
+771181,4 SONS HEATING AND COOLING LLC,search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=HEATING
+214815,"72 HEATING & COOLING, INC.",search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Fictitious name; prefix=HEATING
+735816,"72 DEGREES HEATING, COOLING, PLUMBING & ELECTRICAL, LLC",search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Fictitious name; prefix=HEATING
+742324,"KB COMPLETE PLUMBING & AIR CONDITIONING, LLC",search_result,not_active_legal_llc_on_search_row,status=Active; type=Fictitious name; prefix=HEATING
+779323,"HOLT PLUMBING, HEATING, COOLING & ELECTRICAL, LLC",search_result,not_active_legal_llc_on_search_row,status=Active; type=Fictitious name; prefix=HEATING
+113206,"TAME HEATING & COOLING, INC.",search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Fictitious name; prefix=HEATING
+913,A. & B. PLUMBING & HEATING CONTRACTORS CORP.,search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=HEATING
+349464,"A & M HEATING AND COOLING, INC.",search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=HEATING
+192353,"A & M PLUMBING AND HEATING COMPANY, INC.",search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=HEATING
+365844,"4 SEASONS HEATING AND COOLING, L.L.C.",cohort,formation_year_2008_outside_1985_2005;operating_county_outside_or_unlisted;trade_not_confirmed_from_non_sos_source,city=Hornick; county_basis=outside_or_unlisted; formation=2008-07-07; officers_current=0; filings=16; agent_city_not_used=Hornick
+481479,"515 HEATING AND COOLING, LLC",cohort,formation_year_2014_outside_1985_2005;trade_not_confirmed_from_non_sos_source,city=Ankeny; county_basis=unique_city; formation=2014-06-26; officers_current=0; filings=8; agent_city_not_used=Polk City
+732813,4 LARGE MACHINE AND WELDING LLC,search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=WELDING
+407545,"AK TANK, INC.",search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=WELDING
+613441,A & R INDUSTRIES LLC,search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=WELDING
+729625,A-1 FABRICATION AND MOBILE WELDING LLC,search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=WELDING
+578254,A1 PORTABLE WELDING LLC,search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=WELDING
+460475,ABCDS&K WELDING LLC,search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=WELDING
+576430,"ABSOLUTE WELDING AND REPAIR, LLC",search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=WELDING
+427740,"ADVANCED TRAFFIC CONTROL, INC.",search_result,not_active_legal_llc_on_search_row,status=Active; type=Fictitious name; prefix=WELDING
+559435,ADVANCED WELDING SOLUTIONS LLC,search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=WELDING
+194241,ADVANCED WELDING TECHNOLOGY LLC,search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=WELDING
+1395,"AERCO WELDING PRODUCTS OF ILLINOIS, INC.",search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=WELDING
+561132,ALEXANDER WELDING & GRAIN LLC,search_result,not_active_legal_llc_on_search_row,status=Active; type=Fictitious name; prefix=WELDING
+313809,ALL-AMERICAN MOBIL WELDING L.L.C.,search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=WELDING
+530246,14 WELDING LLC,cohort,formation_year_2016_outside_1985_2005;operating_county_outside_or_unlisted;trade_not_confirmed_from_non_sos_source,city=Alton; county_basis=outside_or_unlisted; formation=2016-09-07; officers_current=0; filings=8; agent_city_not_used=Orange City
+407893,"1939 WELDING OUTFITTER, LLC",cohort,formation_year_2010_outside_1985_2005;operating_county_outside_or_unlisted;trade_not_confirmed_from_non_sos_source,city=Mason City; county_basis=outside_or_unlisted; formation=2010-12-02; officers_current=0; filings=10; agent_city_not_used=Mason City
+818988,6G WELDING & FABRICATION LLC,cohort,formation_year_2025_outside_1985_2005;operating_county_outside_or_unlisted;trade_not_confirmed_from_non_sos_source,city=Badger; county_basis=outside_or_unlisted; formation=2025-02-26; officers_current=0; filings=1; agent_city_not_used=Badger
+873924,6/S MOBILE WELDING LLC,cohort,formation_year_2026_outside_1985_2005;operating_county_outside_or_unlisted;trade_not_confirmed_from_non_sos_source,city=Atlantic; county_basis=outside_or_unlisted; formation=2026-06-04; officers_current=0; filings=1; agent_city_not_used=Atlantic
+501615,"PRECISION LIQUID CONSTRUCTION, LLC",cohort,formation_date_unknown;operating_county_outside_or_unlisted;trade_not_confirmed_from_non_sos_source,city=Springfield; county_basis=outside_or_unlisted; formation=unknown; officers_current=0; filings=10; agent_city_not_used=Des Moines
+881660,A&G WELDING AND CONSTRUCTION LLC,cohort,formation_year_2026_outside_1985_2005;trade_not_confirmed_from_non_sos_source,city=Johnston; county_basis=unique_city; formation=2026-07-30; officers_current=0; filings=1; agent_city_not_used=Johnston
+865565,A&M WELDING & LINE BORING LLC,cohort,formation_year_2026_outside_1985_2005;operating_county_outside_or_unlisted;trade_not_confirmed_from_non_sos_source,city=Buffalo; county_basis=outside_or_unlisted; formation=2026-04-04; officers_current=0; filings=1; agent_city_not_used=West Des Moines
+626508,"A & R WELDING BUILDING, LLC",cohort,formation_year_2020_outside_1985_2005;operating_county_outside_or_unlisted;trade_not_confirmed_from_non_sos_source,city=Inwood; county_basis=outside_or_unlisted; formation=2020-02-17; officers_current=0; filings=10; agent_city_not_used=Rock Valley
+816297,"FULL THROTTLE CUSTOMS, LLC",cohort,formation_year_2025_outside_1985_2005;operating_county_outside_or_unlisted;trade_not_confirmed_from_non_sos_source,city=Richland; county_basis=outside_or_unlisted; formation=2025-02-03; officers_current=0; filings=4; agent_city_not_used=Richland
+820528,"AC/DC WELDING & CONSTRUCTION, LLC",cohort,formation_year_2025_outside_1985_2005;operating_county_outside_or_unlisted;trade_not_confirmed_from_non_sos_source,city=Livermore; county_basis=outside_or_unlisted; formation=2025-03-06; officers_current=0; filings=2; agent_city_not_used=Livermore
+780289,ADM WELDING AND FABRICATION LLC,cohort,formation_year_2024_outside_1985_2005;operating_county_outside_or_unlisted;trade_not_confirmed_from_non_sos_source,city=Burlington; county_basis=outside_or_unlisted; formation=2024-03-01; officers_current=0; filings=2; agent_city_not_used=Burlington
+483274,"ADVANTAGE PAVING SOLUTIONS, INC.",search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=PAVING
+272742,"AHRENS CONCRETE PAVING, L.L.C.",search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=PAVING
+399292,"ALLIANCE PAVING SOLUTIONS, INC.",search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=PAVING
+130433,"ALLSTATE PAVING, INC.",search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=PAVING
+340112,"AMBASSADOR BRIDGE & PAVING SUPPLY, LLC",search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=PAVING
+54645,ASPHALT PAVING ASSOCIATION OF IOWA,search_result,not_active_legal_llc_on_search_row,status=Active; type=Legal; prefix=PAVING
+477695,"ASPHALT PAVING EQUIPMENT, INC.",search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=PAVING
+647178,"ASPHALT PAVING SYSTEMS, INC.",search_result,not_active_legal_llc_on_search_row,status=Active; type=Legal; prefix=PAVING
+149631,"ASPHAULT PAVING SPECIALIST, INC.",search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=PAVING
+174911,BITUMINOUS PAVING INC.,search_result,not_active_legal_llc_on_search_row,status=Active; type=Legal; prefix=PAVING
+4673,BLACK HAWK ASPHALT & PAVING CO.,search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=PAVING
+210823,BLACKHAWK PAVING COMPANY.,search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=PAVING
+4881,"BLUFFS PAVING AND UTILITY COMPANY, INC.",search_result,not_active_legal_llc_on_search_row,status=Active; type=Legal; prefix=PAVING
+844761,"BRIX PAVING NATIONAL, INC.",search_result,not_active_legal_llc_on_search_row,status=Active; type=Legal; prefix=PAVING
+7243,"CARTER-JOHNSON ASPHALT PAVING, INC.",search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=PAVING
+7336,"CASTLE PAVING CO., INC.",search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=PAVING
+617,"L. L. PELLING COMPANY, INCORPORATED",search_result,not_active_legal_llc_on_search_row,status=Active; type=Fictitious name; prefix=PAVING
+7441,CEDAR RAPIDS ASPHALT & PAVING COMPANY,search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=PAVING
+7597,"CENTRAL ASPHALT PAVING, INC.",search_result,not_active_legal_llc_on_search_row,status=Active; type=Legal; prefix=PAVING
+88240,"CPAC, INC.",search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal (foreign using fictitious); prefix=PAVING
+7706,CENTRAL PAVING CORPORATION,search_result,not_active_legal_llc_on_search_row,status=Inactive; type=Legal; prefix=PAVING
+861662,ALLIANCE PAVING LLC,cohort,formation_year_2026_outside_1985_2005;operating_county_split_city_unresolved;trade_not_confirmed_from_non_sos_source,city=Urbandale; county_basis=split_city_unresolved; formation=2026-03-06; officers_current=0; filings=1; agent_city_not_used=Urbandale

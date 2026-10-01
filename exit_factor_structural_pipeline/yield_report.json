@@ -1,0 +1,158 @@
+{
+  "research_date": "2026-10-01",
+  "coverage": "partial_name_prefix_and_one_number_lookup_not_all_active_entities",
+  "claude_summarizer": "unavailable",
+  "accepted_new_owner_verified": 0,
+  "target": 50,
+  "shortfall_versus_50": 50,
+  "counts": {
+    "entities_parsed": 50,
+    "filing_changes": 6,
+    "filing_changes_last_12_months": 1,
+    "management_jobs": 0,
+    "qualified_intersection": 0,
+    "single_signal_review": 6,
+    "rejected_rows": 160,
+    "owner_verified": 0,
+    "structural_screen_passes": 0,
+    "biennial_documents_sampled": 2,
+    "biennial_documents_with_officer_roster": 0,
+    "agent_change_documents_read": 6
+  },
+  "prefix_pages": [
+    {
+      "prefix": "PLUMBING",
+      "shown_from": 1,
+      "shown_to": 25,
+      "reported_total": 1000,
+      "parsed_rows": 25
+    },
+    {
+      "prefix": "ROOFING",
+      "shown_from": 1,
+      "shown_to": 25,
+      "reported_total": 1000,
+      "parsed_rows": 24
+    },
+    {
+      "prefix": "CONCRETE",
+      "shown_from": 1,
+      "shown_to": 25,
+      "reported_total": 1000,
+      "parsed_rows": 25
+    },
+    {
+      "prefix": "EXCAVAT",
+      "shown_from": 1,
+      "shown_to": 25,
+      "reported_total": 1000,
+      "parsed_rows": 24
+    },
+    {
+      "prefix": "HEATING",
+      "shown_from": 1,
+      "shown_to": 25,
+      "reported_total": 1000,
+      "parsed_rows": 19
+    },
+    {
+      "prefix": "WELDING",
+      "shown_from": 1,
+      "shown_to": 25,
+      "reported_total": 886,
+      "parsed_rows": 24
+    },
+    {
+      "prefix": "PAVING",
+      "shown_from": 1,
+      "shown_to": 25,
+      "reported_total": 146,
+      "parsed_rows": 25
+    }
+  ],
+  "sources": {
+    "sos_prefix_search": {
+      "attempted": 7,
+      "fetched": 7,
+      "parsed": 166,
+      "matched": 0,
+      "event_positive": 0,
+      "owner_verified": 0,
+      "intersected": 0,
+      "seconds": 79.31991267204285
+    },
+    "sos_entity": {
+      "attempted": 50,
+      "fetched": 50,
+      "parsed": 50,
+      "matched": 50,
+      "event_positive": 6,
+      "owner_verified": 0,
+      "intersected": 0,
+      "seconds": 913.8215885162354
+    },
+    "sos_document": {
+      "attempted": 8,
+      "fetched": 8,
+      "parsed": 8,
+      "matched": 0,
+      "event_positive": 0,
+      "owner_verified": 0,
+      "intersected": 0,
+      "seconds": 117.28360295295715
+    },
+    "management_jobs": {
+      "attempted": 0,
+      "fetched": 0,
+      "parsed": 0,
+      "matched": 0,
+      "event_positive": 0,
+      "owner_verified": 0,
+      "intersected": 0,
+      "seconds": 0.0
+    },
+    "owner_verification": {
+      "attempted": 0,
+      "fetched": 0,
+      "parsed": 0,
+      "matched": 0,
+      "event_positive": 0,
+      "owner_verified": 0,
+      "intersected": 0,
+      "seconds": 0.0
+    }
+  },
+  "credits": {
+    "remaining": 96549,
+    "local_spent": 780,
+    "cap": 4000,
+    "local_spent_after": 780,
+    "local_cap": 4000,
+    "credits_added_by_pilot_counter": 0,
+    "elapsed_seconds_this_process": 0.1,
+    "live_source_seconds": 1110.4
+  },
+  "notes": [
+    "Biennial A25753682 for 753682 has no officer, manager, or member roster.",
+    "prefix PLUMBING showed 1-25 of 1000. Later pages were not opened. This is not all matching entities.",
+    "Biennial A25694761 for 694761 has no officer, manager, or member roster.",
+    "Stopped further biennial document downloads. 2 sampled LLC biennial reports had no officer, manager, or member roster.",
+    "prefix ROOFING showed 1-25 of 1000. Later pages were not opened. This is not all matching entities.",
+    "prefix CONCRETE showed 1-25 of 1000. Later pages were not opened. This is not all matching entities.",
+    "prefix EXCAVAT showed 1-25 of 1000. Later pages were not opened. This is not all matching entities.",
+    "prefix HEATING showed 1-25 of 1000. Later pages were not opened. This is not all matching entities.",
+    "prefix WELDING showed 1-25 of 886. Later pages were not opened. This is not all matching entities.",
+    "prefix PAVING showed 1-25 of 146. Later pages were not opened. This is not all matching entities.",
+    "Stopped prefix searches at the 50-entity detail cap.",
+    "Apify job actors were not run. APIFY_TOKEN is unset and the store actors found earlier are pay-per-result.",
+    "Owner verification was not started. Openers are drafted only after a current full-name owner is verified, and only for the filing-change AND management-job intersection. Claude did not run.",
+    "No parsed entity cleared the active LLC, 1985-2005 formation, and Polk, Dallas, or Warren principal-office screens. Company career pages were not searched. Formation years present in this first-page sample: 2005, 2008, 2009, 2010, 2011, 2014, 2015, 2016, 2017, 2018, 2020, 2021, 2022, 2023, 2024, 2025, 2026, unknown. The opened page was the first 25 rows of a larger result, and searches stop at 1,000 matches. That page is not a formation-year or county filter."
+  ],
+  "interpretation": {
+    "registered_agent_change_is_ownership_transfer": false,
+    "same_surname_is_family": false,
+    "formation_year_is_founder_age": false,
+    "job_opening_is_a_hire": false,
+    "job_opening_is_first_role_without_explicit_text": false
+  }
+}
