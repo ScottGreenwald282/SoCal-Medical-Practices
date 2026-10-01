@@ -2,7 +2,7 @@
 
 Current target: 100 distinct Greater Des Moines field-trade companies. There is no revenue requirement and no revenue search. A row in `priority_100.csv` is company-qualified only when a public page supports the identity, a real street address, and the trade. Owner name is filled only when a page states ownership. A blank owner is unfinished enrichment, not a guess. Published phones are business numbers. Nothing in the priority file says a company needs to sell.
 
-`priority_100.csv` currently holds 37 coordinator-checked companies (24 with a verified owner). Checkpoints: `checkpoints/priority_0010.csv` and `checkpoints/priority_0025.csv`. The file is not padded to 100. Counts and held-out rows are in `priority_progress.json`.
+`priority_100.csv` currently holds 50 coordinator-checked companies (27 with a verified owner). Checkpoints: `checkpoints/priority_0010.csv`, `checkpoints/priority_0025.csv`, and `checkpoints/priority_0050.csv`. The file is not padded to 100. Counts and held-out rows are in `priority_progress.json`.
 
 Fifty research workers were launched. Forty-eight returned an isolated result file. Batches 34 and 36 have no result file. The coordinator reread the cited pages before a row was promoted.
 

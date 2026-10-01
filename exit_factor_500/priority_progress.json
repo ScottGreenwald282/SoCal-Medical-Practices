@@ -10,18 +10,18 @@
   "result_files_missing_batches": [],
   "active_or_queued": "0 result files missing; live agent state was not polled",
   "completed_with_result_file": 50,
-  "priority_rows_published": 37,
-  "shortfall_versus_100": 63,
-  "company_qualified": 37,
-  "owner_verified": 24,
-  "owner_unknown": 13,
-  "published_phone": 37,
-  "published_email": 22,
-  "phone_and_email": 22,
+  "priority_rows_published": 50,
+  "shortfall_versus_100": 50,
+  "company_qualified": 50,
+  "owner_verified": 27,
+  "owner_unknown": 23,
+  "published_phone": 50,
+  "published_email": 29,
+  "phone_and_email": 29,
   "checkpoints": {
     "10": "checkpoints/priority_0010.csv",
     "25": "checkpoints/priority_0025.csv",
-    "50": "not reached",
+    "50": "checkpoints/priority_0050.csv",
     "100": "not reached"
   },
   "held_out": [
@@ -32,7 +32,7 @@
     "Turner Construction: national contractor branch, not promoted",
     "Rewired and Rewired Iowa: same phone and same claimed owner; duplicate, owner page not reconfirmed",
     "Creative Nature and 5 Sons: owner pages returned HTTP 403 during coordinator review",
-    "Batches 34 and 36: no result file"
+    "Mission Painting, Baldon Plumbing, Rewired, Creative Nature, and 5 Sons: owner page was blocked or did not show the claimed owner sentence on reread"
   ],
-  "note": "All 50 batch result files are in verification/batches. Batches 34 and 36 were recovered from the worker branch and are not in priority_100.csv until a coordinator reread."
+  "note": "Checkpoint 50 is the first 50 coordinator-checked rows. Batches 34 and 36 are included where the cited page was reread."
 }
