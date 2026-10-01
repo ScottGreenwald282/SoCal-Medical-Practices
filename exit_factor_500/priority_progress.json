@@ -3,13 +3,13 @@
   "target_companies": 100,
   "acceptance_gate": "verified current full-name owner",
   "revenue_requirement": "none",
-  "priority_rows_published": 56,
-  "shortfall_versus_100": 44,
-  "company_qualified_with_current_owner": 56,
-  "owner_verified": 56,
+  "priority_rows_published": 57,
+  "shortfall_versus_100": 43,
+  "company_qualified_with_current_owner": 57,
+  "owner_verified": 57,
   "owner_unknown_in_final": 0,
-  "owner_ready": 56,
-  "published_phone": 56,
+  "owner_ready": 57,
+  "published_phone": 57,
   "published_email": 23,
   "phone_and_email": 23,
   "existing_owner_rows_re_audited": 27,
@@ -29,7 +29,11 @@
     "live_agent_state": "not polled"
   },
   "firecrawl": {
-    "endpoints": ["POST /v2/search", "POST /v2/scrape", "GET /v2/team/credit-usage"],
+    "endpoints": [
+      "POST /v2/search",
+      "POST /v2/scrape",
+      "GET /v2/team/credit-usage"
+    ],
     "local_credit_cap": 4000,
     "billing_changes": "none",
     "credential_stored_in_repo": false
@@ -53,5 +57,5 @@
     "Dry Duck Basement Waterproofing: BBB owner title, street not on the profile that was checked",
     "Companies without a verified current owner remain in research/priority_100_before_owner_gate.csv and the wave2 result files"
   ],
-  "note": "priority_100.csv and owner_ready.csv are the same 56 companies because every accepted row has a published business phone. The phone column is a business number. Emails are published business addresses."
+  "note": "priority_100.csv and owner_ready.csv are the same 57 companies because every accepted row has a published business phone. The phone column is a business number. Emails are published business addresses."
 }
