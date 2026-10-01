@@ -57,5 +57,6 @@
     "Dry Duck Basement Waterproofing: BBB owner title, street not on the profile that was checked",
     "Companies without a verified current owner remain in research/priority_100_before_owner_gate.csv and the wave2 result files"
   ],
-  "note": "priority_100.csv and owner_ready.csv are the same 63 companies because every accepted row has a published business phone. The phone column is a business number. Emails are published business addresses."
+  "research_stopped": true,
+  "note": "Research stopped on 2026-10-01. priority_100.csv and owner_ready.csv are the same 63 accepted companies. The file is not padded to 100. Every accepted row has a published business phone. Emails are published business addresses."
 }
