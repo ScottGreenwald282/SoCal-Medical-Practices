@@ -4,14 +4,46 @@
   "revenue_requirement": "none",
   "baseline_frozen": "baseline_excluded.tsv",
   "baseline_delivered_owner_rows": 63,
-  "accepted": 0,
-  "review": 0,
-  "excluded": 0,
-  "shortfall_versus_50": 50,
-  "milestone": "baseline frozen; event search starting",
+  "accepted": 4,
+  "review": 6,
+  "excluded": 22,
+  "shortfall_versus_50": 46,
+  "milestone": "First independent review completed. 4 accepted, 6 review, 22 excluded. The 10-company checkpoint was not reached.",
+  "representative_rejections": [
+    "Employee-owned or no individual owner: Woodruff, Septagon",
+    "President or general manager is not an owner: All Star Concrete, Holt, R3, Flynn",
+    "Anniversary or chamber-membership ribbon is not an operating event: Cyclone Contracting, Harold Pike, Titan Roofing",
+    "Outside Greater Des Moines: DCI Group Iowa City, Geater Independence, Jarrell St. Louis, ABC Supply Tiffin, Avsten Ohio",
+    "Baseline duplicate: Electrical Power Products, BB Roofing, Baker Group, Waldinger",
+    "Government or public facility: Des Moines city hall, RecPlex"
+  ],
+  "credits": {
+    "remaining": 97373,
+    "plan": 100000,
+    "local_spent": 588,
+    "local_cap": 4000
+  },
   "checkpoints": {
     "10": "not reached",
     "25": "not reached",
     "50": "not reached"
+  },
+  "workers": {
+    "launched": 10,
+    "result_files": 10,
+    "workers_with_candidate_rows": [
+      "w01_expansion",
+      "w05_fleet",
+      "w06_interviews"
+    ],
+    "workers_header_only": [
+      "w02_acquisition",
+      "w03_succession",
+      "w04_management",
+      "w07_ribbon",
+      "w08_news",
+      "w09_mechanical",
+      "w10_heavy"
+    ]
   }
 }
