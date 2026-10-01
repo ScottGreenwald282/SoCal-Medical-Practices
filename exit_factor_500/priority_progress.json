@@ -1,38 +1,57 @@
 {
   "research_date": "2026-10-01",
   "target_companies": 100,
+  "acceptance_gate": "verified current full-name owner",
   "revenue_requirement": "none",
-  "tool": "cursor Task / generalPurpose",
-  "workers_requested": 50,
-  "workers_launched": 50,
-  "launch_failures": 0,
-  "result_files_collected": 50,
-  "result_files_missing_batches": [],
-  "active_or_queued": "0 result files missing; live agent state was not polled",
-  "completed_with_result_file": 50,
-  "priority_rows_published": 50,
-  "shortfall_versus_100": 50,
-  "company_qualified": 50,
-  "owner_verified": 27,
-  "owner_unknown": 23,
-  "published_phone": 50,
-  "published_email": 29,
-  "phone_and_email": 29,
+  "priority_rows_published": 56,
+  "shortfall_versus_100": 44,
+  "company_qualified_with_current_owner": 56,
+  "owner_verified": 56,
+  "owner_unknown_in_final": 0,
+  "owner_ready": 56,
+  "published_phone": 56,
+  "published_email": 23,
+  "phone_and_email": 23,
+  "existing_owner_rows_re_audited": 27,
+  "existing_owner_rows_kept": 24,
+  "existing_owner_rows_removed": [
+    "Elder Corporation: 2000 history says Jared Elder II took over as majority owner. That is not a current ownership statement.",
+    "Fisher Construction LLC: the page says founder Drake Fisher started the company.",
+    "Housby: Kelly Housby is Owner and Partner, and the business is a truck dealer rather than a field-trade crew."
+  ],
+  "wave2": {
+    "tool": "cursor Task / generalPurpose",
+    "workers_requested": 100,
+    "workers_launched": 100,
+    "launch_failures": 0,
+    "result_files_on_disk": 97,
+    "result_files_not_yet_on_disk": ["t05_c05", "t05_c08", "t06_c06"],
+    "live_agent_state": "not polled"
+  },
+  "firecrawl": {
+    "endpoints": ["POST /v2/search", "POST /v2/scrape", "GET /v2/team/credit-usage"],
+    "local_credit_cap": 4000,
+    "billing_changes": "none",
+    "credential_stored_in_repo": false
+  },
   "checkpoints": {
-    "10": "checkpoints/priority_0010.csv",
-    "25": "checkpoints/priority_0025.csv",
-    "50": "checkpoints/priority_0050.csv",
+    "owners_verified_current": "checkpoints/owners_verified_current.csv",
+    "company_pass_10": "checkpoints/priority_0010.csv",
+    "company_pass_25": "checkpoints/priority_0025.csv",
+    "company_pass_50": "checkpoints/priority_0050.csv",
     "100": "not reached"
   },
-  "held_out": [
+  "held_out_of_final": [
     "Absolute Concrete / Absolute Group: site says 100% employee-owned; no individual owner",
-    "Cessford Construction: published address is Burlington and the email domain is CRH; outside Greater Des Moines",
+    "Cessford Construction: published address is Burlington and the email domain is CRH",
     "First Onsite Des Moines: site says it is a subsidiary of FirstService Corporation",
     "Atlas Roofing Bondurant: roofing-products manufacturer, not a field crew",
-    "Turner Construction: national contractor branch, not promoted",
-    "Rewired and Rewired Iowa: same phone and same claimed owner; duplicate, owner page not reconfirmed",
-    "Creative Nature and 5 Sons: owner pages returned HTTP 403 during coordinator review",
-    "Mission Painting, Baldon Plumbing, Rewired, Creative Nature, and 5 Sons: owner page was blocked or did not show the claimed owner sentence on reread"
+    "Turner Construction: national contractor branch",
+    "Integra Electrical and Xtreme Roofing: co-founder titles without a current owner statement",
+    "McMahan Industrial Services and Euro Designs: founder title without a current owner statement",
+    "Johnston Development: owner titles on the site, street only on a third-party directory, company page shows a PO Box",
+    "Dry Duck Basement Waterproofing: BBB owner title, street not on the profile that was checked",
+    "Companies without a verified current owner remain in research/priority_100_before_owner_gate.csv and the wave2 result files"
   ],
-  "note": "Checkpoint 50 is the first 50 coordinator-checked rows. Batches 34 and 36 are included where the cited page was reread."
+  "note": "priority_100.csv and owner_ready.csv are the same 56 companies because every accepted row has a published business phone. The phone column is a business number. Emails are published business addresses."
 }
